@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Mi Cuenta es : <%= @cont%> </h1>	
+	<% @cont += 1 %>
+	<form action= "/<%= @cont%>" method="get">
+		<input type="submit" value="Sumar"></input>
+	</form>
+	
+</body>
+</html>
